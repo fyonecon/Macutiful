@@ -24,10 +24,47 @@
 ~~~
 
 软件（仅限 ARM64 平台）：
+- iterm2（第三方终端）：https://iterm2.com/downloads.html
+- Scroll Reverser（鼠标方向反转）：
+- MouseBoost Pro（右键菜单）：
+- The Unarchiver（解压）：
+- Unzip One（压缩）：
+- PDFgear（PDF阅读、编辑）：
 
 ---
 
 # 小技能：
+
+### 优化鼠标滚轮的方向和指针速度设置：
+让鼠标滚轮的方向变成Win的习惯，让指针移动速度更顺滑省力。
+
+Scroll Reverser
+
+### 微信双开：
+在Mac上双开微信（微信官网或AppStore的都可以，可以无视中文名）。
+
+在iterm2中配置一个命令“微信双开”：
+
+> nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
+
+![Mac微信双开](./docs/Mac微信双开.png)
+
+### Chrome插件：
+在Chrome中安装离线版插件。
+
+### 文件管理器侧栏显示设置：
+
+### 文件管理器文件列表显示设置：
+
+### 常用快捷键：
+- 截图：cmd+shift+4或3
+- 注销：cmd+shift+q
+- 锁屏：cmd+control+q
+- 文件管理器路径直达：cmd+shift+g
+- 文件管理器显示隐藏文件：cmd+shift+.
+- 文件管理器删除文件：cmd+del
+- 文件管理器清理垃圾桶所有文件：cmd+shit+del
+- 切换输入法：需要自己设置，比如我设置成：cmd+空格、control+空格
 
 ---
 
