@@ -25,11 +25,12 @@
 
 软件（仅限 ARM64 平台）：
 - iterm2（第三方终端）：https://iterm2.com/downloads.html
-- Scroll Reverser（鼠标方向反转）：
-- MouseBoost Pro（右键菜单）：
+- Scroll Reverser（鼠标方向反转）：https://github.com/fyonecon/Macutiful/releases/download/Test/Scroll.Reverser.7z
+- MouseBoost Pro（右键菜单）：https://github.com/fyonecon/Macutiful/releases/download/Test/MouseBoost.Pro.7z
 - The Unarchiver（解压）：
-- Unzip One（压缩）：
+- Unzip One（压缩）：https://github.com/fyonecon/Macutiful/releases/download/Test/UnzipOne.7z
 - PDFgear（PDF阅读、编辑）：
+- Office：
 
 ---
 
@@ -48,7 +49,7 @@
 ### 优化鼠标滚轮的方向和指针速度设置：
 让鼠标滚轮的方向变成Win的习惯，让指针移动速度更顺滑省力。
 
-Scroll Reverser：
+Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/Scroll.Reverser.7z
 
 设置开机自启、隐藏状态栏图标、关闭自动更新：
 
@@ -71,10 +72,14 @@ Scroll Reverser：
 在Chrome中安装离线版插件。
 
 ### 文件管理器侧栏显示设置：
-。。。
+展示文件夹路径、展示磁盘剩余容量。
+
+![文件管理器属性](./docs/文件管理器属性.png)
 
 ### 文件管理器文件列表显示设置：
-。。。
+点到文件管理器里面，右键---更多选项 来打开设置---最后选 用作默认 。
+
+![文件列表属性](./docs/文件列表属性.png)
 
 ### 键盘、触摸板、鼠标 加速度设置：
 加速度都设置大一点，可以保证使用体验接近Win的习惯，特别是能省力。
