@@ -35,6 +35,16 @@
 
 # 小技能：
 
+### 常用快捷键：
+- 截图：cmd+shift+4或3
+- 注销：cmd+shift+q
+- 锁屏：cmd+control+q
+- 文件管理器路径直达：cmd+shift+g
+- 文件管理器显示隐藏文件：cmd+shift+.
+- 文件管理器删除文件：cmd+del
+- 文件管理器清理垃圾桶所有文件：cmd+shit+del
+- 切换输入法：需要自己设置，比如我设置成：cmd+空格、control+空格
+
 ### 优化鼠标滚轮的方向和指针速度设置：
 让鼠标滚轮的方向变成Win的习惯，让指针移动速度更顺滑省力。
 
@@ -53,18 +63,41 @@ Scroll Reverser
 在Chrome中安装离线版插件。
 
 ### 文件管理器侧栏显示设置：
+-
 
 ### 文件管理器文件列表显示设置：
+-
 
-### 常用快捷键：
-- 截图：cmd+shift+4或3
-- 注销：cmd+shift+q
-- 锁屏：cmd+control+q
-- 文件管理器路径直达：cmd+shift+g
-- 文件管理器显示隐藏文件：cmd+shift+.
-- 文件管理器删除文件：cmd+del
-- 文件管理器清理垃圾桶所有文件：cmd+shit+del
-- 切换输入法：需要自己设置，比如我设置成：cmd+空格、control+空格
+### 设置Firefox的PWA功能（适用于Mac和Win）：
+Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome是互通的。
+
+安装 Firefox 浏览器：https://www.firefox.com/zh-CN/download/all/desktop-release/
+
+给 Firefox 浏览器安装 uBlock 广告插件（离线.xpi文件）：https://github.com/gorhill/uBlock/releases
+
+安装 firefoxpwa 第三方PWA插件：https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/
+
+安装过程中一定要看运行日志，比如还需要手动“开启firefoxpwa插件”，如下可能需要在终端运行如下命令才能开启firefoxpwa插件：
+> sudo mkdir -p "/Library/Application Support/Mozilla/NativeMessagingHosts"
+> 
+> sudo ln -sf "/usr/local/opt/firefoxpwa/share/firefoxpwa.json" "/Library/Application Support/Mozilla/NativeMessagingHosts/firefoxpwa.json"
+
+手动安装PWA运行时，比如可能“firefoxpwa插件运行时”下载太慢，就自己在终端手动下载：
+> firefoxpwa runtime install
+
+安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）。
+
+![firefoxpwa-icon](./docs/firefoxpwa-icon.png)
+
+安装好的PWA都在这里（包含了打开、卸载、重命名）：
+
+![firefoxpwa-apps](./docs/firefoxpwa-apps.png)
+
+在 此PWA安装 uBlock 插件，点击地址栏的插件图标，把之前下载的.xpi文件拖进去即可，这样任意的PWA应用都会有此广告插件。
+
+![firefox-install-ext](./docs/firefox-install-ext.png)
+
+此 Firefox 安装 PWA 教程适同时用于Mac和Win平台。
 
 ---
 
