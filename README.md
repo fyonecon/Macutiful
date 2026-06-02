@@ -60,7 +60,7 @@ Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/S
 ![scroll-鼠标反向](./docs/scroll-鼠标反向.png)
 
 ### 微信双开：
-在Mac上双开微信（微信官网或AppStore的都可以，可以无视中文名）。
+在Mac上双开微信（微信官网 https://weixin.qq.com/ 或AppStore的都可以，可以无视中文名）。
 
 在iterm2中配置一个命令“微信双开”：
 
@@ -96,6 +96,25 @@ Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/S
 
 ![鼠标速度](./docs/鼠标速度.png)
 
+
+### Mac安装Homebrew国内源
+#### 苹果电脑安装脚本（选择清华大学镜像）：
+> /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+
+#### 苹果电脑卸载脚本：
+> /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
+
+
+### 针对Mac中.app文件打开时显示“软件已损坏”问题
+```
+1.1 在Mac的终端输入命令行：sudo spctl --master-disable
+1.2 然后输入你的Mac锁屏密码，回车确认。
+1.3 打开设置----隐私与安全----安全----勾选“任何来源”。
+2. 安装xxx.app软件到Mac的应用文件夹里。
+3.1 在Mac终端输入命令行：sudo xattr -r -d com.apple.quarantine /Applications/xxx.app
+3.2 然后输入你的Mac锁屏密码，回车确认。
+4. OK了。
+```
 
 
 ### 设置Firefox的PWA功能（适用于Mac和Win）：
