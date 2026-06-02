@@ -1,4 +1,4 @@
-# 美化Mac：让Mac的操作更靠近Win，让Mac的功能更方便。
+# 美化Mac：让Mac的操作更靠近Win，让Mac的使用更顺手。
 
 原始教程地址：https://github.com/fyonecon/Macutiful
 
