@@ -11,6 +11,11 @@
 
 ---
 
+### Mac电脑购买建议：
+- 轻办公首选无风扇款Mac；
+- 笔记本 > Mini主机 > 一体机；
+- Mac可以优化成类Win体验，Win也能有化成类Mac体验，但最终使用体验会走向趋同。
+
 ### 常用软件：
 软件说明：
 ~~~
@@ -63,8 +68,12 @@ Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/S
 在Mac上双开微信（微信官网 https://weixin.qq.com/ 或AppStore的都可以，可以无视中文名）。
 
 在iterm2中配置一个命令“微信双开”：
+```
+nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 
-> nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
+```
+
+如下图设置：
 
 ![Mac微信双开](./docs/Mac微信双开.png)
 
