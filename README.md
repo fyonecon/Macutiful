@@ -168,6 +168,23 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 
 此 Firefox 安装 PWA 教程适同时用于Mac和Win平台。
 
+### 管理开机自启项：
+用户：
+
+> /Users/用户名/Library/LaunchAgents
+
+系统：
+
+> /Library/LaunchAgents
+
+### 其它功能文件：
+
+> 用户App数据：/Users/用户名/Library/Application Support
+>
+> App数据：/Library/Application Support
+> 
+> Edge浏览器或Office自动更新：/Library/Application Support/Microsoft/
+
 ---
 
 # 特别声明：
