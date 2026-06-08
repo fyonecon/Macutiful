@@ -195,6 +195,19 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 
 此 Firefox 安装 PWA 教程适同时用于Mac和Win平台。
 
+Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
+> /Users/用户名/Applications/
+
+### 管理自己安装的App：
+“.app”类App 和 “PWA”类App 均可支持移动到 “应用程序”文件夹下的的子文件夹下，并在 启动台（Win里面叫：开始菜单）里面正常显示。如下图，我将两类App都放在“应用程序”下的各自的自定义的文件夹中：
+
+![两类App都放在“应用程序”下的各自的文件夹中](./docs/app-dir.png)
+
+目录：
+> .app类：/Applications/
+> 
+> PWA类： /Users/用户名/Applications/
+
 ### 管理开机自启项：
 用户：
 
