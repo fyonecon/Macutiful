@@ -227,6 +227,48 @@ Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 
 ---
 
+### 安装Python：
+不要用Python安装包来安装，请使用brew来安装（brew安装会覆盖掉老python版本）：
+> 检查已安装版本：python3 --vsesion
+>
+> 检查包管理器已安装版本：pip3 --version
+>
+> 安装：brew install python@3.14
+>
+> 卸载：brew uninstall python@3.14
+>
+
+### 安装NodeJS：
+下载安装包：https://nodejs.org/en/download/current
+> node -v
+>
+> npm -v
+
+### 安装Golang：
+安装（慢，推荐）：
+> brew install go
+
+安装（快）：https://golang.google.cn/dl/
+
+查看配置信息：
+> go env
+
+开启mod模式:
+> go env -w GO111MODULE=on
+
+go get大陆地区代理：
+
+> go env -w GOPROXY=https://goproxy.cn,https://goproxy.io,direct
+
+自定义go路径，注意更改成自己的用户名（默认目录：/Users/用户名/go ）：
+> go env -w GOPATH='/Users/haola/Coderful/go'
+> 
+> go env -w GOMODCACHE='/Users/haola/Coderful/go/pkg/mod'
+
+⚠️env文件存放路径：Mac：/Users/haola/Library/Application Support/go/env
+
+---
+
 # 特别声明：
 请不要将所有工具用于商业用途！
 
