@@ -105,8 +105,35 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 
 ![鼠标速度](./docs/鼠标速度.png)
 
+### Mac初次安装Homebrew和Git：
 
-### Mac安装Homebrew国内源
+说明：
+此方法网速较慢，但是比官网（https://brew.sh）快。此方法可在国内慢速执行。
+
+安装：
+> /bin/bash -c "$(curl -fsSL https://github.com/Homebrew/install/raw/HEAD/install.sh)"
+
+编译到shell（这是根据安装提示）：
+> echo >> /Users/用户名/.zprofile
+> 
+> echo 'eval "$(/usr/local/bin/brew shellenv zsh)"' >> /Users/haola/.zprofile
+> 
+> eval "$(/usr/local/bin/brew shellenv zsh)"
+> 
+
+查看：
+> brew -v
+
+安装Git：
+> brew install git
+
+查看Git：
+> git -v
+
+
+### Mac更换Homebrew国内源：
+Mac需要已经安装过 brew + git 。
+
 #### 苹果电脑安装脚本（选择清华大学镜像）：
 > /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 
