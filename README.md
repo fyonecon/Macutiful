@@ -4,6 +4,18 @@
 
 美化Win11：https://github.com/fyonecon/Winutiful
 
+<style>
+    .docs-p{
+        text-align: center;
+    }
+    .docs-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 400px;
+    }
+</style>
+
 ---
 
 ### AgentRules
@@ -57,12 +69,10 @@
 Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/Scroll.Reverser.7z
 
 设置开机自启、隐藏状态栏图标、关闭自动更新：
-
-![scroll-开机自启](./docs/scroll-开机自启.png)
+<p class="docs-p"><img class="docs-img" src="./docs/scroll-开机自启.png" alt="./docs/scroll-开机自启.png" /></p>
 
 设置鼠标反向（一般只设置这一个就行了）：
-
-![scroll-鼠标反向](./docs/scroll-鼠标反向.png)
+<p class="docs-p"><img class="docs-img" src="./docs/scroll-鼠标反向.png" alt="./docs/scroll-鼠标反向.png" /></p>
 
 ### 微信双开：
 在Mac上双开微信（微信官网 https://weixin.qq.com/ 或AppStore的都可以，可以无视中文名）。
@@ -74,36 +84,30 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 ```
 
 如下图设置：
-
-![Mac微信双开](./docs/Mac微信双开.png)
+<p class="docs-p"><img class="docs-img" src="./docs/Mac微信双开.png" alt="./docs/Mac微信双开.png" /></p>
 
 ### Chrome插件：
 在Chrome中安装离线版插件。
 
 ### 文件管理器侧栏显示设置：
 展示文件夹路径、展示磁盘剩余容量。
-
-![文件管理器属性](./docs/文件管理器属性.png)
+<p class="docs-p"><img class="docs-img" src="./docs/文件管理器属性.png" alt="./docs/文件管理器属性.png" /></p>
 
 ### 文件管理器文件列表显示设置：
 点到文件管理器里面，右键---更多选项 来打开设置---最后选 用作默认 。
-
-![文件列表属性](./docs/文件列表属性.png)
+<p class="docs-p"><img class="docs-img" src="./docs/文件列表属性.png" alt="./docs/文件列表属性.png" /></p>
 
 ### 键盘、触摸板、鼠标 加速度设置：
 加速度都设置大一点，可以保证使用体验接近Win的习惯，特别是能省力。
 
 键盘：
-
-![键盘速度](./docs/键盘速度.png)
+<p class="docs-p"><img class="docs-img" src="./docs/键盘速度.png" alt="./docs/键盘速度.png" /></p>
 
 触摸板：
-
-![触摸板速度](./docs/触摸板速度.png)
+<p class="docs-p"><img class="docs-img" src="./docs/触摸板速度.png" alt="./docs/触摸板速度.png" /></p>
 
 鼠标：
-
-![鼠标速度](./docs/鼠标速度.png)
+<p class="docs-p"><img class="docs-img" src="./docs/鼠标速度.png" alt="./docs/鼠标速度.png" /></p>
 
 ### Mac初次安装Homebrew和Git：
 
@@ -160,8 +164,7 @@ Mac返厂维修的受害者都会强烈推荐使用Mac时间机器，返厂会�
 如下图，建议设置成每天自动备份。
 
 位置：设置-通用-时间机器：
-
-![时间机器设置](./docs/时间机器设置.png)
+<p class="docs-p"><img class="docs-img" src="./docs/时间机器设置.png" alt="./docs/时间机器设置.png" /></p>
 
 
 ### 设置Firefox的PWA功能（适用于Mac和Win）：
@@ -182,16 +185,13 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 > firefoxpwa runtime install
 
 安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）。
-
-![firefoxpwa-icon](./docs/firefoxpwa-icon.png)
+<p class="docs-p"><img class="docs-img" src="./docs/firefoxpwa-icon.png" alt="./docs/firefoxpwa-icon.png" /></p>
 
 安装好的PWA都在这里（包含了打开、卸载、重命名）：
-
-![firefoxpwa-apps](./docs/firefoxpwa-apps.png)
+<p class="docs-p"><img class="docs-img" src="./docs/firefoxpwa-apps.png" alt="./docs/firefoxpwa-apps.png" /></p>
 
 在 此PWA安装 uBlock 插件，点击地址栏的插件图标，把之前下载的.xpi文件拖进去即可，这样任意的PWA应用都会有此广告插件。
-
-![firefox-install-ext](./docs/firefox-install-ext.png)
+<p class="docs-p"><img class="docs-img" src="./docs/firefoxpwa-ext.png" alt="./docs/firefoxpwa-ext.png" /></p>
 
 此 Firefox 安装 PWA 教程适同时用于Mac和Win平台。
 
@@ -200,8 +200,7 @@ Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 
 ### 管理自己安装的App：
 “.app”类App 和 “PWA”类App 均可支持移动到 “应用程序”文件夹下的的子文件夹下，并在 启动台（Win里面叫：开始菜单）里面正常显示。如下图，我将两类App都放在“应用程序”下的各自的自定义的文件夹中：
-
-![两类App都放在“应用程序”下的各自的文件夹中](./docs/app-dir.png)
+<p class="docs-p"><img class="docs-img" src="./docs/app-dir.png" alt="./docs/app-dir.png" /></p>
 
 目录：
 > .app类：/Applications/
