@@ -110,6 +110,21 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 
 <img src="./docs/mac访达颜色标签设置.png" alt="./docs/mac访达颜色标签设置.png"  style="max-height:420px; max-width:100%;" />
 
+### Finder访达在新标签或新窗口打开文件夹
+设置：
+
+<img src="./docs/访达在新标签打开文件夹.png" alt="./docs/访达在新标签打开文件夹.png"  style="max-height:420px; max-width:100%;" />
+
+- 新标签打开文件夹：
+  
+  方法一：cmd+双击文件夹。
+
+  方法二：右键打开：
+
+  <img src="./docs/新标签打开文件夹.png" alt="./docs/新标签打开文件夹.png"  style="max-height:420px; max-width:100%;" />
+
+- 新窗口打开文件夹：option+双击文件夹
+
 ### Mac初次安装Homebrew和Git：
 
 说明：
