@@ -125,6 +125,13 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 
 - 新窗口打开文件夹：option+双击文件夹
 
+### 禁止Mac给特性文件夹建立索引：
+给该文件夹名增加“.app”这样一个后缀，增加后缀后改文件仍是文件夹，新查看里面内容，则右键查看包内容（Win下就是个文件夹双击即可查看，Mac双击无用需要右键显示包内容点击进去才能查看）：
+
+<img src="./docs/禁止Mac给特性文件夹建立索引.png" alt="./docs/禁止Mac给特性文件夹建立索引.png"  style="max-height:420px; max-width:100%;" />
+
+---
+
 ### Mac初次安装Homebrew和Git：
 
 说明：
