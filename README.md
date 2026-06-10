@@ -28,14 +28,15 @@
 · 教程中的“txt说明文件”有些需要“GBK编码格式”才能看，有些需要“UTF-8编码格式”才能查看。
 ~~~
 
-软件（仅限 ARM64 平台）：
+软件（可能仅限 ARM64 平台）：
 - iterm2（第三方终端）：https://iterm2.com/downloads.html
-- Scroll Reverser（鼠标方向反转）：https://github.com/fyonecon/Macutiful/releases/download/Test/Scroll.Reverser.7z
-- MouseBoost Pro（右键菜单）：https://github.com/fyonecon/Macutiful/releases/download/Test/MouseBoost.Pro.7z
-- The Unarchiver（解压）：
-- Unzip One（压缩）：https://github.com/fyonecon/Macutiful/releases/download/Test/UnzipOne.7z
-- PDFgear（PDF阅读、编辑）：
-- Office：
+- Scroll Reverser（鼠标方向反转，学习版）：https://github.com/fyonecon/Macutiful/releases/download/Test/Scroll.Reverser.7z
+- MouseBoost Pro（右键菜单，学习版）：https://github.com/fyonecon/Macutiful/releases/download/Test/MouseBoost.Pro.7z
+- Unzip One（压缩，学习版）：https://github.com/fyonecon/Macutiful/releases/download/Test/UnzipOne.7z
+- PDFgear（PDF阅读、编辑，免费）：https://www.pdfgear.com/
+- Office 2024（学习版）：https://macoshome.com/app/productivity/10656.html 
+- iStat Menus（显示网速，学习版）：https://macoshome.com/app/utilities/11225.html
+- Chrome V2+离线扩展（含教程）：https://github.com/fyonecon/winutiful/releases/download/Test/Chrome.-v2.zip
 
 ---
 
@@ -167,8 +168,14 @@ Mac需要已经安装过 brew + git 。
 #### 苹果电脑卸载脚本：
 > /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
 
+### 单独设置允许任何软件来源：
 
-### 针对Mac中.app文件打开时显示“软件已损坏”问题
+> sudo spctl --master-disable
+
+再重新打开 “系统设置” – “安全性与隐私” – “安全性” – 允许以下来源的应用程序 – 点击 App Store 与已知开发者选项，然后选择 任何来源
+
+### 针对Mac中.app文件打开时显示“软件已损坏”问题：
+先打开“允许任何来源”，再设置软件白名单。
 ```
 1.1 在Mac的终端输入命令行：sudo spctl --master-disable
 1.2 然后输入你的Mac锁屏密码，回车确认。
