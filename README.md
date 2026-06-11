@@ -37,6 +37,7 @@
 - Office 2024（学习版）：https://macoshome.com/app/productivity/10656.html 
 - iStat Menus（显示网速，学习版）：https://macoshome.com/app/utilities/11225.html
 - Chrome V2+离线扩展（含教程）：https://github.com/fyonecon/winutiful/releases/download/Test/Chrome.-v2.zip
+- 防火墙Lulu（禁止应用联网，免费+开源）：https://github.com/objective-see/LuLu/releases 
 
 ---
 
@@ -243,6 +244,13 @@ Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 > .app类：/Applications/
 > 
 > PWA类： /Users/用户名/Applications/
+
+### 禁止应用联网：
+下载Lulu：https://github.com/objective-see/LuLu/releases
+
+步骤（其他规则与设置请使用“默认联网”即可）：设置---查看规则--添加规则。
+
+<img src="./docs/新增禁止应用联网.png" alt="./docs/新增禁止应用联网.png"  style="height:400px; max-width:100%;" />
 
 ### 管理开机自启项：
 用户：
