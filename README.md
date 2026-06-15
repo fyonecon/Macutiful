@@ -134,6 +134,19 @@ nohup /Applications/WeChat.app/Contents/MacOS/WeChat > /dev/null 2>&1 &
 
 <img src="./docs/禁止Mac给特性文件夹建立索引.png" alt="./docs/禁止Mac给特性文件夹建立索引.png"  style="height:400px; max-width:100%;" />
 
+### 设置Dock栏为自动隐藏，鼠标放下面快速弹出Dock栏：
+为了让屏幕显示空间更大，或者在多屏幕之间快速在任意显示器里呼出Dock栏，可以设置自动隐藏掉Dock栏。
+
+先打开自动隐藏：
+
+<img src="./docs/show-hide-dock.png" alt="./docs/show-hide-dock.png"  style="height:400px; max-width:100%;" />
+
+再在终端输入下面命令（系统默认0.5秒动画）：
+> defaults write com.apple.dock autohide-time-modifier -float 0.2 && killall Dock
+
+恢复Mac默认设置：
+> defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
+
 ---
 
 ### Mac初次安装Homebrew和Git：
