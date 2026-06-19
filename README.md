@@ -213,13 +213,17 @@ Mac返厂维修的受害者都会强烈推荐使用Mac时间机器，返厂会�
 
 <img src="./docs/时间机器设置.png" alt="./docs/时间机器设置.png"  style="height:400px; max-width:100%;" />
 
-
-### 设置Firefox的PWA功能（适用于Mac）：
-Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome是互通的。
-
+### 大陆地区安装Firefox广告插件：
 安装 Firefox 浏览器：https://www.firefox.com/zh-CN/download/all/desktop-release/
 
 给 Firefox 浏览器安装 uBlock 广告插件（离线.xpi文件）：https://github.com/gorhill/uBlock/releases
+
+在 此PWA安装 uBlock 插件，点击地址栏的插件图标，把之前下载的.xpi文件拖进去即可，这样任意的PWA应用都会有此广告插件:
+
+<img src="./docs/firefox-install-ext.png" alt="./docs/firefox-install-ext.png"  style="height:400px; max-width:100%;" />
+
+### 设置Firefox的PWA功能（适用于Mac）：
+Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome是互通的。
 
 1. 安装 firefoxpwa 第三方PWA插件：https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/
 
@@ -227,7 +231,7 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 
 > brew install firefoxpwa
 
-3. 安装过程中一定要看运行日志，比如还需要手动“开启firefoxpwa插件”，如下可能需要在终端运行如下命令才能开启firefoxpwa插件：
+3. 注册 firefoxpwa 基于原生Firefox环境(安装过程中一定要看运行日志，比如还需要手动“开启firefoxpwa插件”，如下可能需要在终端运行如下命令才能开启firefoxpwa插件)：
 
 > sudo mkdir -p "/Library/Application Support/Mozilla/NativeMessagingHosts"
 > 
@@ -237,25 +241,30 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 > firefoxpwa runtime install
 
 5. 点击“PWAs for Firefox”logo查看安装进度，经过上面步骤，已经安装好所有运行时环境了。
+> 或访问地址直达：moz-extension://a51f75d8-ec83-4add-8f2f-7aaa34f1c2c6/setup/install.html
 
-6. 安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）:
+6.1 安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）:
 
 <img src="./docs/firefoxpwa-icon.png" alt="./docs/firefoxpwa-icon.png"  style="height:400px; max-width:100%;" />
+
+6.2 设置所有网站都支持PWA应用：
+
+点击“PWAs for Firefox”logo---设置--- Display address bar widget --- Always
+
+7.1 使用与管理PWA应用：
 
 安装好的PWA都在这里（包含了打开、卸载、重命名）：
 
 <img src="./docs/firefoxpwa-apps.png" alt="./docs/firefoxpwa-apps.png"  style="height:400px; max-width:100%;" />
 
-在 此PWA安装 uBlock 插件，点击地址栏的插件图标，把之前下载的.xpi文件拖进去即可，这样任意的PWA应用都会有此广告插件:
-
-<img src="./docs/firefox-install-ext.png" alt="./docs/firefox-install-ext.png"  style="height:400px; max-width:100%;" />
-
-此 Firefox 安装 PWA 教程适同时用于Mac和Win平台。
-
 Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 > /Users/用户名/Applications/
 
-💡Mac彻底卸载firefoxpwa：
+7.2 给每个PWA应用安装浏览器插件（由于与Master Firefox是各自独立的，所以需要在PWA应用窗口里面再次安装浏览器插件）：
+
+和Master Firefox安装插件一样，拖进去或下载。
+
+8. Mac彻底卸载firefoxpwa：
 ~~~
 1.1 在Firefox的“PWAs for Firefox”扩展面板删除已安装的PWA应用
 
@@ -267,7 +276,8 @@ Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 
 或者手动删除下面文件和目录：
 
-3. 手动删除快捷方式（Mac里面叫替身）：/usr/lcoal/bin/firefoxpwa
+3.1 手动删除快捷方式（Mac里面叫替身）：/usr/lcoal/bin/firefoxpwa
+3.2 手动删除快捷方式（Mac里面叫替身）:/usr/local/opt/firefoxpwa
 
 4. 手动删除目录：/usr/local/celler/firefoxpwa
 
