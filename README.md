@@ -214,24 +214,31 @@ Mac返厂维修的受害者都会强烈推荐使用Mac时间机器，返厂会�
 <img src="./docs/时间机器设置.png" alt="./docs/时间机器设置.png"  style="height:400px; max-width:100%;" />
 
 
-### 设置Firefox的PWA功能（适用于Mac和Win）：
+### 设置Firefox的PWA功能（适用于Mac）：
 Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome是互通的。
 
 安装 Firefox 浏览器：https://www.firefox.com/zh-CN/download/all/desktop-release/
 
 给 Firefox 浏览器安装 uBlock 广告插件（离线.xpi文件）：https://github.com/gorhill/uBlock/releases
 
-安装 firefoxpwa 第三方PWA插件：https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/
+1. 安装 firefoxpwa 第三方PWA插件：https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/
 
-安装过程中一定要看运行日志，比如还需要手动“开启firefoxpwa插件”，如下可能需要在终端运行如下命令才能开启firefoxpwa插件：
+2. 安装 firefoxpwa 命令行：
+
+> brew install firefoxpwa
+
+3. 安装过程中一定要看运行日志，比如还需要手动“开启firefoxpwa插件”，如下可能需要在终端运行如下命令才能开启firefoxpwa插件：
+
 > sudo mkdir -p "/Library/Application Support/Mozilla/NativeMessagingHosts"
 > 
 > sudo ln -sf "/usr/local/opt/firefoxpwa/share/firefoxpwa.json" "/Library/Application Support/Mozilla/NativeMessagingHosts/firefoxpwa.json"
 
-手动安装PWA运行时，比如可能“firefoxpwa插件运行时”下载太慢，就自己在终端手动下载：
+4. 安装PWA Runtime（比如可能“firefoxpwa插件运行时”下载太慢，就自己在终端手动下载）：
 > firefoxpwa runtime install
 
-安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）:
+5. 点击“PWAs for Firefox”logo查看安装进度，经过上面步骤，已经安装好所有运行时环境了。
+
+6. 安装 firefoxpwa(插件+运行时) 成功后，在Firefox浏览器中访问某个网站就可以看到地址栏有安装PWA的图标（不出现安装PWA图标的话就刷新一下页面）。安装PWA的时间可能需要几十秒钟，安装过程请一直保持在安装界面（不要切换到其它应用或页面，避免失败）:
 
 <img src="./docs/firefoxpwa-icon.png" alt="./docs/firefoxpwa-icon.png"  style="height:400px; max-width:100%;" />
 
@@ -247,6 +254,28 @@ Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome�
 
 Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 > /Users/用户名/Applications/
+
+💡Mac彻底卸载firefoxpwa：
+~~~
+1.1 在Firefox的“PWAs for Firefox”扩展面板删除已安装的PWA应用
+
+1.2 在Firefox删除“PWAs for Firefox”扩展
+
+2. 在终端运行：firefoxpwa runtime uninstall
+
+3. brew uninstall firefoxpwa
+
+或者手动删除下面文件和目录：
+
+3. 手动删除快捷方式（Mac里面叫替身）：/usr/lcoal/bin/firefoxpwa
+
+4. 手动删除目录：/usr/local/celler/firefoxpwa
+
+5. 手动删除目录：/Users/用户名/Library/Application Support/firefoxpwa
+
+6. 重启电脑。
+
+~~~
 
 ### 管理自己安装的App：
 “.app”类App 和 “PWA”类App 均可支持移动到 “应用程序”文件夹下的的子文件夹下，并在 启动台（Win里面叫：开始菜单）里面正常显示。如下图，我将两类App都放在“应用程序”下的各自的自定义的文件夹中：
