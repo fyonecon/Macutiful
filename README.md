@@ -222,6 +222,9 @@ Mac返厂维修的受害者都会强烈推荐使用Mac时间机器，返厂会�
 
 <img src="./docs/firefox-install-ext.png" alt="./docs/firefox-install-ext.png"  style="height:400px; max-width:100%;" />
 
+ADBlock和uBlock离线插件（130+）：
+https://github.com/fyonecon/Macutiful/releases/download/Test/Firefox130+.ADBlock-uBlock.zip
+
 ### 设置Firefox的PWA功能（适用于Mac）：
 Firefox的PWA可以做成Safari一样的每个PWA之间相互隔离，而Chrome是互通的。
 
