@@ -318,6 +318,12 @@ Mac中的PWA程序都可以移动到其他文件夹里面。默认位置在：
 
 ### 其它功能文件：
 
+> 程序垃圾：/Users/haola/Library/Application Scripts
+
+> 用户plist文件库： /Users/haola/Library/Preferences/
+> 
+> 其他plist文件库： /Library/Preferences/
+
 > 用户App数据：/Users/用户名/Library/Application Support
 >
 > App数据：/Library/Application Support
