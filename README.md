@@ -66,6 +66,25 @@ Scroll Reverser：https://github.com/fyonecon/Macutiful/releases/download/Test/S
 
 <img src="./docs/scroll-鼠标反向.png" alt="./docs/scroll-鼠标反向.png"  style="height:400px; max-width:100%;" />
 
+### 设置时区、地区、语言：
+有时候特殊软件会根据“时区+地区”来判断是否可以封号（比如时区上海），还有有的地区有特殊法律限制（比如欧盟、英国），下面是一些可以用的参数：
+
+常用UTC+8时区：
+- 新加坡-新加坡（Singapore）
+- 菲律宾-马尼拉（Manila）
+- 蒙古-乌兰巴托（Ulaanbaatar）
+
+常用地区：
+- 美国（U.S. 或 American）
+- 新加坡（Singapore）
+- 日本（Japan）
+
+常用语言：
+- 美国-简体中文
+- 美国-英语
+- 新加坡-简体中文
+- 新加坡-英语
+
 ### 微信双开：
 在Mac上双开微信（微信官网 https://weixin.qq.com/ 或AppStore的都可以，可以无视中文名）。
 
