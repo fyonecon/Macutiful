@@ -391,6 +391,21 @@ go get大陆地区代理：
 
 ⚠️env文件存放路径：Mac：/Users/haola/Library/Application Support/go/env
 
+### 安装Chrome和扩展插件：
+适用于 Chrome v143+，插件适用于V3扩展，适用于Mac/Win。下面下载地址的软件如果下载不下来，请使用迅雷下载（ 安装迅雷：https://dl.xunlei.com ）。
+
+下载最新Chrome（Mac/Win）：https://www.iplaysoft.com/tools/chrome/
+
+Chrome-151.0.7922.7（Win10+，AMD64）: https://dl.google.com/release2/chrome/acyg5hsdibqz5q3gdzxg6vvvix6a_151.0.7922.72/151.0.7922.72_chrome_installer_uncompressed.exe
+
+Chrome-151.0.7922.7（MacOS14+，ARM64/AMD64）:https://dl.google.com/release2/chrome/jzy33whkrvxpy4bxsfmxnqtcwi_151.0.7922.72/GoogleChrome-151.0.7922.72.dmg
+
+uBlock Origin Lite（屏蔽广告。需开启浏览器扩展开发者模式+解压后导入）：https://github.com/fyonecon/Macutiful/releases/download/Test/Chrome-.V3-Block.Origin.Lite.-.ddkjiahejlhfcafbddmgiahcphecmpfh.zip
+
+AdBlock（屏蔽广告。需开启浏览器扩展开发者模式+解压后导入）：https://github.com/fyonecon/Macutiful/releases/download/Test/Chrome-.V3-AdBlock.-.gighmmpiobklfepjocnamgkkbiglidom.zip
+
+tabPurehome（新标签优化。需开启浏览器扩展开发者模式+解压后导入）：https://github.com/fyonecon/tabPureHome/archive/refs/heads/main.zip
+
 ---
 
 # 特别声明：
