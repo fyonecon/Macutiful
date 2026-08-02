@@ -39,6 +39,8 @@
 - Chrome V2+离线扩展（含教程）：https://github.com/fyonecon/winutiful/releases/download/Test/Chrome.-v2.zip
 - 防火墙Lulu（禁止应用联网，免费+开源）：https://github.com/objective-see/LuLu/releases 
 
+- 轮播壁纸：https://github.com/fyonecon/Winutiful/releases/download/Test/wallpapers.zip
+
 ---
 
 # 小技能：
